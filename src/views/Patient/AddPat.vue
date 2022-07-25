@@ -5,7 +5,7 @@
         <b>TAMBAH PASIEN</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="840px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="840px" color="#ffffed">
       <v-form>
         <v-container>
           <p>Nama</p>

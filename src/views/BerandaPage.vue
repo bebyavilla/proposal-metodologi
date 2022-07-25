@@ -8,12 +8,12 @@
         <div class="col-md-6">
           <div class="d-flex">
             <div class="bav justify-content-center align-self-center">
-              <h1 class="white--text">Selamat Datang, Admin Klinik Pelita Sehat !</h1><br>
-              <p class="white--text">Berikan layanan terbaik dan tetap prioritaskan kesehatan pasien.</p><br>
+              <h1>Selamat Datang, Admin Klinik Pelita Sehat !</h1><br>
+              <p>Berikan layanan terbaik dan tetap prioritaskan kesehatan pasien.</p><br>
               <v-btn
               justify-center
-              color="#fefe51"
-              class="btn-antrean black--text"
+              color="#613A03"
+              class="btn-antrean white--text"
               rounded-pill
               href="/DaftarAntrean"
               >
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="text-right col-md-6">
-          <img src="../assets/img/herow.svg" width="270" />
+          <img src="../assets/img/hero.svg" width="270" />
         </div>
       </div>
     </div>
@@ -289,8 +289,10 @@ h1 {
 }
 
 .hero {
-  background-color: #271803;
+  background-color: #ffffc8;
   height: 230px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .txt-jumlah {
   font-family: 'Lato';

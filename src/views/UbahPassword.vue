@@ -5,7 +5,7 @@
         <b>UBAH PASSWORD</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="320px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="320px" color="#ffffed">
     <v-form>
       <v-container>
         <!-- tanya, kan hanya login sebagai admin, tidak tau sebagai siapanya -->

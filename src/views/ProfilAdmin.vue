@@ -5,16 +5,16 @@
         <b>PROFILE ADMINISTRATOR</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="420px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="420px" color="#ffffed">
     <v-form>
       <v-container>
         <!-- tanya, kan hanya login sebagai admin, tidak tau sebagai siapanya -->
         <p>Nama</p>
-        <v-text-field class="form" v-model="nama" label="Blabla" solo></v-text-field><br>
+        <v-text-field class="form" disabled v-model="nama" label="Beby Avilla" solo></v-text-field><br>
         <p>NIP</p>
-        <v-text-field class="form" v-model="nama" label="Blabla" solo></v-text-field><br>
+        <v-text-field class="form" disabled v-model="nama" label="3486386" solo></v-text-field><br>
         <p>Email</p>
-        <v-text-field class="form" v-model="nama" label="Blabla" solo></v-text-field><br>
+        <v-text-field class="form" disabled v-model="nama" label="bebyavilla@gmail.com" solo></v-text-field><br>
 
         <v-card-actions>
           <v-spacer></v-spacer>

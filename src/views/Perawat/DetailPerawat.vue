@@ -8,7 +8,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="6">
-          <v-card class="rounded-xl" justify="space-around" color="#EDFFFA">
+          <v-card class="rounded-xl" justify="space-around" color="#ffffed">
             <v-card-title> <b>Biodata</b> </v-card-title>
             <br />
 
@@ -20,7 +20,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >Beby Avilla</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -33,7 +33,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >bebyavilla@gmail.com</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -46,7 +46,7 @@
               </v-list-item-action>
 
               <v-list-item-content>
-                <v-list-item-title color="grey">24 Juni 2022</v-list-item-title>
+                <v-list-item-title color="grey">11 Maret 2001</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <br />
@@ -59,7 +59,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >Depok</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -73,7 +73,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >Perempuan</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -81,7 +81,7 @@
         </v-col>
 
         <v-col cols="12" sm="6">
-          <v-card class="rounded-xl" color="#EDFFFA">
+          <v-card class="rounded-xl" color="#ffffed">
             <v-card-title> <b>Data Perawat</b> </v-card-title>
             <br />
 
@@ -93,7 +93,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >732673472368</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -106,7 +106,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Lorem ipsum dolor</v-list-item-title
+                  >0006236</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>
@@ -120,7 +120,7 @@
 
               <v-list-item-content>
                 <v-list-item-title color="grey"
-                  >Poliklinik penyakit dalam</v-list-item-title
+                  >Poli Gigi</v-list-item-title
                 >
               </v-list-item-content>
             </v-list-item>

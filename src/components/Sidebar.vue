@@ -2,7 +2,7 @@
     <div>
         <v-navigation-drawer
         permanent
-        color="#ffffc8"
+        color="#281801"
         app
         >
         <br>
@@ -13,7 +13,7 @@
             justify-center
             src="../assets/img/logooo.svg"
         ></v-img>
-        <span class="black--text">KLINIK PELITA SEHAT</span>
+        <span class="klinik">KLINIK PELITA SEHAT</span>
         </div>
 
         <v-list-item class="px-2 pt-1">
@@ -60,10 +60,10 @@
                 </v-list-item-content>
                 </v-list-item>
             </v-list-group>
-            <v-list-item class="black--text"
+            <v-list-item class="white--text"
                 v-else
                 :key="item.text"
-                active-class="orange--text"
+                active-class="white--text"
                 route :to="item.route"
                 @click="press(item.text)"
             >
@@ -205,7 +205,7 @@ export default {
 
 <style>
 .buttonLogout:hover{
-    background-color: #E0F8F2;
+    background-color: #fafad6;
     cursor: pointer;
     display: block;
 }
@@ -264,5 +264,10 @@ export default {
     /* identical to box height */
 
     letter-spacing: 0.0125em;
+}
+
+.klinik {
+    font-size: 17px !important;
+    color: #fcfcbe;
 }
 </style>
