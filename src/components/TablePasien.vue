@@ -83,7 +83,7 @@
                               <div class="page">
                                     <v-pagination
                                       class="page"
-                                      color="#0D987A"
+                                      color="#613A03"
                                       v-model="page"
                                       previous-aria-label="Prev"
                                       next-aria-label="Next"

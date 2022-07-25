@@ -5,7 +5,7 @@
         <b>TAMBAH ADMINISTRATOR</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="530px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="530px" color="#ffffed">
     <v-form>
       <v-container>
         <p>Nama</p>

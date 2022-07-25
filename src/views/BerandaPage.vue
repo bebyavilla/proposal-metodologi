@@ -8,12 +8,12 @@
         <div class="col-md-6">
           <div class="d-flex">
             <div class="bav justify-content-center align-self-center">
-              <h1>Selamat Datang, Admin Klinik Sehat !</h1><br>
-              <p>Berikan layanan terbaik dan tetap prioritaskan kesehatan pasien.</p><br>
+              <h1 class="white--text">Selamat Datang, Admin Klinik Pelita Sehat !</h1><br>
+              <p class="white--text">Berikan layanan terbaik dan tetap prioritaskan kesehatan pasien.</p><br>
               <v-btn
               justify-center
-              color="#0D987A"
-              class="btn-antrean white--text"
+              color="#fefe51"
+              class="btn-antrean black--text"
               rounded-pill
               href="/DaftarAntrean"
               >
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="text-right col-md-6">
-          <img src="../assets/img/img-hero.svg" width="270" />
+          <img src="../assets/img/herow.svg" width="270" />
         </div>
       </div>
     </div>
@@ -134,7 +134,7 @@
                 <br>
                 <v-btn
                 justify-center
-                color="#0D987A"
+                color="#613A03"
                 class="btn-tambah white--text"
                 rounded-lg
                 href="/DaftarAntrean"
@@ -153,7 +153,7 @@
                 <br>
                 <v-btn
                 justify-center
-                color="#0D987A"
+                color="#613A03"
                 class="btn-tambah white--text"
                 rounded-lg
                 href="/AddPas"
@@ -241,7 +241,7 @@ p {
 
 .kotak {
   border-style: groove;
-  border-color: #0D987A;
+  border-color: #613A03;
   border-width: 2px;
   border-radius: 20px;
 }
@@ -265,8 +265,8 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #EDFFFA;
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffffc8;
+  box-shadow: 0 7px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
@@ -283,13 +283,13 @@ h1 {
 }
 
 .card {
-  background-color: #EDFFFA !important;
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffffc8 !important;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
 .hero {
-  background-color: #E0F8F2;
+  background-color: #271803;
   height: 230px;
 }
 .txt-jumlah {

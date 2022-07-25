@@ -5,7 +5,7 @@
         <b>DAFTAR ADMINISTRATOR</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="700px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="700px" color="#ffffed">
       <br />
       <v-card-title>
         <div>
@@ -15,7 +15,7 @@
           class="white--text"
           href="/AddAdmin"
           height="53px"
-          color="#0D987A"
+          color="#613A03"
           left
         >
           <v-icon>mdi-plus </v-icon>
@@ -38,7 +38,7 @@
       <!-- code table -->
       <v-sheet :color="`white ${theme.isDark ? 'darken-2' : 'lighten-4'}`">
         <div>
-          <v-sheet :color="`#F9FFFB`" class="px-5 py-0">
+          <v-sheet :color="`#ffffed`" class="px-5 py-0">
             <v-row>
               <v-col>
                 <v-data-table
@@ -139,7 +139,7 @@
                     <div class="page">
                       <v-pagination
                         class="page"
-                        color="#0D987A"
+                        color="#613A03"
                         v-model="page"
                         previous-aria-label="Prev"
                         next-aria-label="Next"

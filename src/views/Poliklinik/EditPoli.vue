@@ -5,7 +5,7 @@
         <b>EDIT POLIKLINIK</b>
       </v-toolbar-title>
     </div>
-    <v-card class="rounded-xl" height="200px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="200px" color="#ffffed">
       <v-form>
         <v-container>
           <p>Nama Poliklinik</p>

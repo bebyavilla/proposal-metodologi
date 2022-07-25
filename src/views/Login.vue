@@ -10,8 +10,8 @@
                   <br />
                   <v-img
                     class="mx-auto"
-                    max-width="140"
-                    src="../assets/img/logo1.svg"
+                    max-width="110"
+                    src="../assets/img/logooo.svg"
                   ></v-img>
                   <v-card-text class="mt-1">
                     <h1 class="text">Sign In</h1>
@@ -45,7 +45,7 @@
                     <p class="lupa text-right" @click="pas">Lupa Password?</p>
                   </v-card-text>
                   <div class="text-center">
-                    <v-btn @click="login" width="300px" height="45px" rounded color="#0D987A" dark>SIGN IN</v-btn>
+                    <v-btn @click="login" width="300px" height="45px" rounded color="#613A03" dark>SIGN IN</v-btn>
                   </div>
                 </v-col>
                 <v-col cols="12" md="5">
@@ -53,7 +53,7 @@
                     class="mx-auto"
                     height="609"
                     width="1000"
-                    src="../assets/img/imglogin.jpg"
+                    src="../assets/img/coba.png"
                   ></v-img>
                 </v-col>
               </v-row>
@@ -119,7 +119,7 @@ export default {
 }
 .form-login {
   border-style: solid;
-  border-color: #0b715b;
+  border-color: #613A03;
   border-width: 2px;
   border-radius: 20px !important;
   height: 52px;

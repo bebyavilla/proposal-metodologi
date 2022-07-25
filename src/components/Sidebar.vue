@@ -2,18 +2,18 @@
     <div>
         <v-navigation-drawer
         permanent
-        color="#E5F5F2"
+        color="#ffffc8"
         app
         >
         <br>
         <div class="title">
         <v-img
             class="mx-auto"
-            max-width="110"
+            max-width="90"
             justify-center
-            src="../assets/img/logo1.svg"
+            src="../assets/img/logooo.svg"
         ></v-img>
-        <span class="black--text">KLINIK SEHAT</span>
+        <span class="black--text">KLINIK PELITA SEHAT</span>
         </div>
 
         <v-list-item class="px-2 pt-1">
@@ -103,8 +103,8 @@
                 <!-- <span v-if="cekRole !== 'ADMIN'" class="nameUser mr-2"></span>
                 <span v-if="cekRole === 'ADMIN'" class="nameUser mr-2"></span>
                 <span v-if="cekRole === 'ADMIN'" class="nameUser mr-2"></span> -->
-                <v-icon color="#0B715B" class="mdi-36px">mdi-account-circle</v-icon>
-                <v-icon color="#0B715B" class="mdi-36px">mdi-chevron-down</v-icon>
+                <v-icon color="#613A03" class="mdi-36px">mdi-account-circle</v-icon>
+                <v-icon color="#613A03" class="mdi-36px">mdi-chevron-down</v-icon>
             </v-btn>
             </template>
             
@@ -211,7 +211,7 @@ export default {
 }
 
 .v-application .orange--text {
-    color: #285e50 !important;
+    color: #613A03 !important;
     caret-color: #000000 !important;
     background-repeat: repeat-x;
 }
@@ -249,7 +249,7 @@ export default {
 }
 
 .icon {
-    background-color: #8BCEBC;
+    background-color: #FEFE01;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }

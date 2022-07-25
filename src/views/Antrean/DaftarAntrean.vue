@@ -1,7 +1,7 @@
 <template>
   <v-container fluid style="padding: 30px">
     <br />
-    <v-card class="rounded-xl" height="700px" color="#F9FFFB">
+    <v-card class="rounded-xl" height="700px" color="#ffffed">
       <br />
       <v-card-title>
         <div>
@@ -11,7 +11,7 @@
           class="white--text"
           href="/AddAntrean"
           height="53px"
-          color="#0D987A"
+          color="#613A03"
           left
         >
           <v-icon>mdi-plus </v-icon>
@@ -21,7 +21,7 @@
         <v-spacer></v-spacer>
         <div class="text-right">
           <v-container>
-            <v-btn class="white--text" height="50px" color="#0D987A">
+            <v-btn class="white--text" height="50px" color="#613A03">
               <v-icon> mdi-filter-variant </v-icon>
             </v-btn>
           </v-container>
@@ -41,7 +41,7 @@
       <!-- code table -->
       <v-sheet :color="`white ${theme.isDark ? 'darken-2' : 'lighten-4'}`">
         <div>
-          <v-sheet :color="`#F9FFFB`" class="px-5 py-0">
+          <v-sheet :color="`#ffffed`" class="px-5 py-0">
             <v-row>
               <v-col>
                 <v-data-table
@@ -56,7 +56,7 @@
                 >
                   <template v-slot:header="{ props: { headers } }">
                     <thead class="MyHeader">
-                      <tr color="#0D987A">
+                      <tr color="#613A03">
                         <th
                           v-for="(h, index) in headers"
                           :class="h.class"
@@ -141,7 +141,7 @@
                     <div class="page">
                       <v-pagination
                         class="page"
-                        color="#0D987A"
+                        color="#613A03"
                         v-model="page"
                         previous-aria-label="Prev"
                         next-aria-label="Next"
@@ -339,7 +339,7 @@ export default {
   color: #ffffff;
 }
 .MyHeader {
-  background-color: #0d987a;
+  background-color: #613A03 !important;
 }
 /* tanya ke mentor */
 .aksi {

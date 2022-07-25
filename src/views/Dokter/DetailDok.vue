@@ -8,7 +8,7 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="6">
-          <v-card class="rounded-xl" justify="space-around" color="#EDFFFA">
+          <v-card class="rounded-xl" justify="space-around" color="#ffffed">
             <v-card-title> <b>Biodata</b> </v-card-title>
             <br />
 
@@ -81,7 +81,7 @@
         </v-col>
 
         <v-col cols="12" sm="6">
-          <v-card class="rounded-xl" color="#EDFFFA">
+          <v-card class="rounded-xl" color="#ffffed">
             <v-card-title> <b>Data Dokter</b> </v-card-title>
             <br />
 

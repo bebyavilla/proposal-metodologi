@@ -6,7 +6,7 @@
       </v-toolbar-title>
     </div>
     <v-container>
-      <v-card class="rounded-xl" justify="space-around" color="#EDFFFA">
+      <v-card class="rounded-xl" justify="space-around" color="#ffffed">
         <v-card-title> <b>Polilklinik</b> </v-card-title>
         <v-list-item-title class="mx-5">Poliklinik Umum</v-list-item-title>
         <br />
